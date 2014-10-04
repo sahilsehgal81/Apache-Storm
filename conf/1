@@ -1,0 +1,8 @@
+#Storm Cluster Configuration
+
+#Zookeeper Configuration
+yaml storm.zookeeper.servers:
+      - "localhost"
+
+#Nimbus Node configurations
+yaml nimbus.host: "localhost"

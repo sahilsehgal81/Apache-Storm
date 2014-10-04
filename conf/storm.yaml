@@ -1,0 +1,11 @@
+#Zookeeper configuration file
+
+yaml storm.zookeeper.servers:
+ - "localhost"
+
+yaml storm.local.dir: "/var/storm" 
+
+yaml nimbus.host: "hadoop.example.com" 
+
+yaml supervisor.slots.ports: 
+ - 6700 - 6701 - 6702 - 6703 
